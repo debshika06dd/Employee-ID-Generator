@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee ID Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="outer">
+    <form class="info" id="infoForm">
+
+      <input type="text" id="name" placeholder="Employee Name" required>
+      <input type="text" id="designation" placeholder="Designation" required>
+      <input type="number" id="number" placeholder="Employee Number" required>
+      <input type="url" id="photo" placeholder="Photo link (URL)" required>
+      <input type="tel" id="mob" placeholder="Mobile Number" pattern="^[0-9]{10}$" required>
+      <input type="email" id="email" placeholder="Email ID" required>
+      <input type="submit" value="Generate ID">
+
+    </form>
+  </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
